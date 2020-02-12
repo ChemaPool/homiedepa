@@ -6,8 +6,8 @@ import OptionsContainer from './components/OptionsContainer'
 function App() {
   return (
     <div className="App">
-      <ListContainer></ListContainer>
-      <OptionsContainer></OptionsContainer>
+      <ListContainer />
+      <OptionsContainer />
     </div>
   );
 }

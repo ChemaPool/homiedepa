@@ -4,9 +4,9 @@ import Styled from "styled-components";
 const Label = Styled.p`
   margin: 0px 5px;
   padding: 15px 10px;
-  color: ${props => props.color ? props.color : 'gray'};
-  font-size: ${props => props.fontSize ? props.fontSize : '16px'};
-  font-weight: ${props => props.fontWeight ? props.fontWeight : '400'};
+  color: ${props => props.color || 'gray'};
+  font-size: ${props => props.fontSize || '16px'};
+  font-weight: ${props => props.fontWeight || '400'};
   &:hover{
     cursor: pointer;
   }
